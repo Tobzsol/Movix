@@ -3,6 +3,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
+    margin-top: 150px;
 }
 .login-input{
     display: flex;
@@ -32,4 +33,11 @@ input{
     text-decoration: none;
     color: #B91C1C;
     
+}
+
+@media ( max-width: 900px ) {
+    .login-details{
+        margin: 0;
+        align-items: center;
+    }
 }
